@@ -1,4 +1,4 @@
-* No. 687
+* No. 687: devide and conquer
 * 
 
 
