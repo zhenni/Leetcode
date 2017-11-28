@@ -7,4 +7,5 @@
 * [String](string.md)
 * [Tree](tree.md)
 * [Array](array.md)
+* [DFS](dfs.md)
 
