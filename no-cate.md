@@ -1,3 +1,5 @@
+
+
 Not solved
 
 * Convex Hull
@@ -6,3 +8,7 @@ Not solved
 
 Boring:
 * 728. Self Dividing Numbers: check all
+
+Many Cases:
+* No. 65: Valid Number
+* No. 8:  String to Integer (atoi)

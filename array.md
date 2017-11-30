@@ -17,4 +17,9 @@ Product
 Other:
 
 * No. 189 Rotate Array: Copy; O(1)-tmp memory; Reverse two set and Reverse all
+* No. 632: Smallest Range: K merge sort
+* No. 697: Degree of an Array: Hashmap
 
+
+Stock:
+* No.121: Best Time to Buy and Sell Stock

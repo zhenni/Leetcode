@@ -12,6 +12,7 @@
     * [Backpack Questions](backpack-questions.md)
     * [String](string.md)
     * [Array](array.md)
+    * [Subarray and Substring](subarraystring.md)
     * [Median](median.md)
     * [Duplicate](duplicate.md)
     * [No Extra Space](no-extra-space.md)
