@@ -9,4 +9,5 @@
 * [Array](array.md)
 * [DFS](dfs.md)
 * [Tags](tags.md)
+* [Median](median.md)
 
