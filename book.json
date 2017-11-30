@@ -1,3 +1,15 @@
 {
-    "plugins": [ "theme-faq" ]
+    "plugins": [
+        "youtube",
+        "disqus",
+        "exercises",
+        "tags",
+        "etoc",
+        "katex-dev"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "zhenni"
+        }
+    }
 }
