@@ -13,6 +13,7 @@
     * [String](string.md)
     * [Array](array.md)
     * [Median](median.md)
+    * [Duplicate](duplicate.md)
     * [No Extra Space](no-extra-space.md)
 * [No-Category](no-cate.md)
 * [Tags](tags.md)
