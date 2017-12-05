@@ -14,6 +14,10 @@ Product
 * No. 238: Product of Array Except Self: Two times calculation O\(n\)
 
 
+Majority:
+* No. 373 Find K Pairs with Smallest Sums: **Moore Voting Algorithm** [https://discuss.leetcode.com/topic/17446/6-suggested-solutions-in-c-with-explanations](https://discuss.leetcode.com/topic/17446/6-suggested-solutions-in-c-with-explanations) one counter
+* No. 229 Majority Element II: Moore Voting Algorithm: two counter
+
 Other:
 
 * No. 189 Rotate Array: Copy; O(1)-tmp memory; Reverse two set and Reverse all
