@@ -1,4 +1,4 @@
-No. 200 Number of comp
+* No. 200:Number of Islands: Number of components
 
 
 
