@@ -26,4 +26,13 @@ Other:
 
 
 Stock:
-* No.121: Best Time to Buy and Sell Stock
+* No. 121: Best Time to Buy and Sell Stock: (one whole transaction) [Kadane's Algorithm(similar to maximum subarray, using difference between neighbors)](https://discuss.leetcode.com/topic/19853/kadane-s-algorithm-since-no-one-has-mentioned-about-this-so-far-in-case-if-interviewer-twists-the-input)
+* No. 122: Best Time to Buy and Sell Stock II: (multiple times transactions) simple
+* No. 123: Best Time to Buy and Sell Stock III: 
+    - (2 times -> k times) DP : f[k, ii] represents the max profit up until prices[ii] (Note: NOT ending with prices[ii]) using at most k transactions. 
+    - Thinking: max k subarray sum
+    - some states: states[][0]: one buy; states[][1]: one buy, one sell; states[][2]: two buys, one sell; states[][3]: two buy, two sell [sol](https://discuss.leetcode.com/topic/19750/my-c-solution-o-n-time-o-1-space-8ms)
+* No. 188: Best Time to Buy and Sell Stock IV: 
+    - [sol Using DP solution with O(kn) time O(k) space](https://discuss.leetcode.com/topic/12250/share-my-c-dp-solution-with-o-kn-time-o-k-space-10ms)
+    - [sol Using O(n + klgn) time using Max Heap and Stack](https://discuss.leetcode.com/topic/9522/c-solution-with-o-n-klgn-time-using-max-heap-and-stack) keep the highest k ones.(not the best)   
+* No. 
