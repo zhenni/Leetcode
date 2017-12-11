@@ -7,6 +7,11 @@ tags: Suffix Tree
 
 * No. 301 [sol](https://discuss.leetcode.com/topic/34875/easy-short-concise-and-fast-java-dfs-3-ms-solution)
 
+* No. 139: Word Break: `canBreak[i] = True if canBreak[j] and (s[j:i] in wordDict) for j < i`
+
+## Not solved
+* No. 140: Word Break II: DFS, hashtable saving the previous prune duplicated brunch....
+
 ## Anagram
 * No. 242 Valid Anagram: sort; hash-table
 * No. 49  Group Anagrams: hash-table, hashfunction
