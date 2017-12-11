@@ -16,7 +16,8 @@ Median of median [https://en.wikipedia.org/wiki/Median_of_medians](https://en.wi
 ## Matrix
 - No. 240 Search a 2D Matrix II: Divide and conquer for 4 blocks; Search row and column step by step;  [Saddleback Search](http://cs.geneseo.edu/~baldwin/math-thinking/saddleback.html)
 
-Not solved
+## Not solved
+675. Cut Off Trees for Golf Event
 
 ## Convex Hull
 * No. 469 Convex Polygon(Check): Degree of corner is less than 180 degree
