@@ -15,6 +15,7 @@
     * [Subarray and Substring](subarraystring.md)
     * [Median](median.md)
     * [Duplicate](duplicate.md)
+    * [Bit Operation](bit-operation.md)
     * [No Extra Space](no-extra-space.md)
 * [No-Category](no-cate.md)
 * [Tags](tags.md)
