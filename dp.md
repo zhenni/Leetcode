@@ -3,10 +3,11 @@
     * No.  63: Unique Paths II
     * No.  64: Minimum Path Sum
     * No. 120: Triangle
+    * No. 221 Maximal Square: dp[i][j]: the largest side of squares with point [i, j] as bottom right corner
 2. Sequences DP
     * No.  53: Maximum Subarray  (Can do state reduction)
     * No. 152: Maximum Product Subarray. similar to 53
-    * No. 139: Word Break
+    * No. 139: Word Break: `canBreak[i] = True if canBreak[j] and (s[j:i] in wordDict) for j < i`
     * No. 139: Word Break II
     * No.  32: Longest Valid Parentheses:
         - DP [1D array DP]: array longest[], for any longest[i], it stores the longest length of valid parentheses which is end at i.
@@ -39,11 +40,6 @@
     * No. 115: Distinct Subsequences (Can do state reduction)
 
     * No.  87: Scramble String. 2 Sequence + Length. f[i][j][len]: s1[i..i+len] and s2[j..j+len] are matched
-
-* No. 221 Maximal Square: dp[i][j]: the largest side of squares with point [i, j] as bottom right corner
-* No. 139: Word Break: `canBreak[i] = True if canBreak[j] and (s[j:i] in wordDict) for j < i`
-
-
 
 #### Reference Links:
 - [http://ryanleetcode.blogspot.com/2015/07/blog-post_16.html](http://ryanleetcode.blogspot.com/2015/07/blog-post_16.html)
