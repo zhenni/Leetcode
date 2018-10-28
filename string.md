@@ -11,6 +11,7 @@ tags: Suffix Tree
 
 ## Not solved
 * No. 140: Word Break II: DFS, hashtable saving the previous prune duplicated brunch....
+* No. 683: Have totally different idea... [sol1](http://blog.csdn.net/u014688145/article/details/78076621?locationNum=2&fps=1) [sol2](http://bookshadow.com/weblog/2017/09/24/leetcode-k-empty-slots/)
 
 ## Anagram
 * No. 242 Valid Anagram: sort; hash-table

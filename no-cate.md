@@ -13,8 +13,6 @@ Median of median [https://en.wikipedia.org/wiki/Median_of_medians](https://en.wi
 - No. 668 Kth Smallest Number in Multiplication Table: this is a sorted matrix
 - No. 373 Find K Pairs with Smallest Sums: Heap: pointer
 
-
-
 ## BackTrack
 - No.  22: Generate Parentheses: DFS backtrack
 
