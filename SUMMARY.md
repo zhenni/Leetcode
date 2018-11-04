@@ -7,6 +7,7 @@
 * Algorithm
     * [DFS](dfs.md)
     * [Dynamic Programming](dp.md)
+    * [Two Pointers](two-pointers.md)
 * Question Summery
     * [N-Sum](n-sum.md)
     * [Backpack Questions](backpack-questions.md)
