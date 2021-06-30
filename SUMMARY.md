@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Data Structure](data-structure/README.md)
+  * [Hashing/Set](data-structure/hashing-set.md)
   * [Tree](data-structure/tree.md)
   * [Queue](data-structure/queue.md)
   * [Stack](data-structure/stack.md)

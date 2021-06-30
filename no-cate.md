@@ -20,6 +20,12 @@ Median of median [https://en.wikipedia.org/wiki/Median\_of\_medians](https://en.
 
 * No.  22: Generate Parentheses: DFS backtrack
 
+
+
+## Calculation:
+
+* No. 1680: Concatenation of Consecutive Binary Numbers
+
 ## Not solved
 
 1. Cut Off Trees for Golf Event
