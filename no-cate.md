@@ -43,13 +43,4 @@ Median of median [https://en.wikipedia.org/wiki/Median\_of\_medians](https://en.
 
 * No. 65: Valid Number
 * No. 8:  String to Integer \(atoi\)
-* No. 717: 1-bit and 2-bit Characters
-
-
-
-## 
-
-
-
-
 
