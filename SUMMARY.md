@@ -23,5 +23,4 @@
   * [Bit Operation](question-summery/bit-operation.md)
   * [No Extra Space](question-summery/no-extra-space.md)
 * [No-Category](no-cate.md)
-* [Tags](tags.md)
 
