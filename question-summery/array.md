@@ -39,6 +39,17 @@
 * No. 128: Longest Consecutive Sequence: Hashing
 * No. 829: Consecutive Numbers Sum: calculation O(sqrt(N))
 
+## Amplitude
+
+* &#x20;No. 1509: Minimum Difference Between Largest and Smallest Value in Three Moves:&#x20;
+  * sort O(nlogn)
+  * O(n). save (k+1) min and (k+1) max
+  * extend to k moves. min-heap and max-heap. O(nlogk) time [https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/discuss/1729942/Python3-(very)-simple-heapq-O(n-log-k)-99-memory](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/discuss/1729942/Python3-\(very\)-simple-heapq-O\(n-log-k\)-99-memory)
+* Google Find the min amplitude after removing K consecutive elements in an array. [https://leetcode.com/discuss/interview-question/1523646/google-find-the-min-amplitude-after-removing-k-consecutive-elements-in-an-array](https://leetcode.com/discuss/interview-question/1523646/google-find-the-min-amplitude-after-removing-k-consecutive-elements-in-an-array)
+  * window-left min and max, window-right min and max. O(n) time. O(n) space.
+
+
+
 ## Stock:
 
 * No. 121: Best Time to Buy and Sell Stock: (one whole transaction) [Kadane's Algorithm(similar to maximum subarray, using difference between neighbors)](https://discuss.leetcode.com/topic/19853/kadane-s-algorithm-since-no-one-has-mentioned-about-this-so-far-in-case-if-interviewer-twists-the-input)
@@ -53,6 +64,8 @@
 * No. 309: Best Time to Buy and Sell Stock with Cooldown
   * DP: [https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/?currentPage=1\&orderBy=hot\&query=](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/?currentPage=1\&orderBy=hot\&query=)
 *   No. 714: Best Time to Buy and Sell Stock with Transaction Fee: Dynamic programming with 2 variables: hold and sell. O(n) time & O(1) space
+
+
 
 
 
