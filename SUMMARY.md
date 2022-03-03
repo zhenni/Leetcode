@@ -7,7 +7,7 @@
   * [Queue](data-structure/queue.md)
   * [Stack](data-structure/stack.md)
 * [Algorithm](algorithm/README.md)
-  * [DFS](algorithm/dfs.md)
+  * [DFS & BFS](algorithm/dfs.md)
   * [Dynamic Programming](algorithm/dp.md)
   * [Iteration/Recursion](algorithm/iteration-recursion.md)
   * [Two Pointers](algorithm/two-pointers.md)
@@ -23,4 +23,3 @@
   * [Bit Operation](question-summery/bit-operation.md)
   * [No Extra Space](question-summery/no-extra-space.md)
 * [No-Category](no-cate.md)
-
