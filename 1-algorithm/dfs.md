@@ -16,6 +16,7 @@
 Some problems force you to combine ideas:
 
 * **79. Word Search** – DFS + backtracking in grid
+  * Pruning: consider freq, can reverse the word, start from low freq.
 * **212. Word Search II** – backtracking + trie
 * **329. Longest Increasing Path in a Matrix** – DFS + DP memoization
 * **140. Word Break II** – DFS + memoization (backtracking with DP)
