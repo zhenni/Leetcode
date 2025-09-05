@@ -1,8 +1,8 @@
 # String
 
-* No. 616 Add Bold Tag in String
+*   No. 616 Add Bold Tag in String
 
-    [http://www.cnblogs.com/grandyang/p/7043394.html](http://www.cnblogs.com/grandyang/p/7043394.html)
+    &#x20; [http://www.cnblogs.com/grandyang/p/7043394.html](http://www.cnblogs.com/grandyang/p/7043394.html)
 
 tags: Suffix Tree
 
@@ -13,11 +13,10 @@ tags: Suffix Tree
 ## Not solved
 
 * No. 140: Word Break II: DFS, hashtable saving the previous prune duplicated brunch....
-* No. 683: Have totally different idea... [sol1](http://blog.csdn.net/u014688145/article/details/78076621?locationNum=2&fps=1) [sol2](http://bookshadow.com/weblog/2017/09/24/leetcode-k-empty-slots/)
+* No. 683: Have totally different idea... [sol1](http://blog.csdn.net/u014688145/article/details/78076621?locationNum=2\&fps=1) [sol2](http://bookshadow.com/weblog/2017/09/24/leetcode-k-empty-slots/)
 
 ## Anagram
 
-* No. 242 Valid Anagram: sort; hash-table
-* No. 49  Group Anagrams: hash-table, hashfunction
-* No. 438 Find All Anagrams in a String: sliding window
-
+* No. 242: Valid Anagram: sort; hash-table
+* No. 49: Group Anagrams: hash-table, hashfunction
+* No. 438: Find All Anagrams in a String: sliding window

@@ -1,6 +1,6 @@
 # Subarray and Substring
 
-SubArray:
+### SubArray:
 
 * No. 53:  Maximum Subarray: dynamic programming: keep the variable of maxEndingHere
 * No. 152: Maximum Product Subarray
@@ -19,10 +19,9 @@ SubArray:
     * Deque [link](https://discuss.leetcode.com/topic/19055/java-o-n-solution-using-deque-with-explanation)
     * [O(n) solution in Java with two simple pass in the array](https://discuss.leetcode.com/topic/26480/o-n-solution-in-java-with-two-simple-pass-in-the-array)
 
-Substring
+### Substring
 
 * No. 30: Substring with Concatenation of All Words
-* No. 567: Permutation in String
 
 &#x20; two-pointer + hash map
 
