@@ -27,4 +27,6 @@
   * [String](../3-question-topics/string.md)
   * [Subarray and Substring](../3-question-topics/subarraystring.md)
 * [No-Category](../no-cate.md)
+* [Cheatsheet](../cheatsheet/README.md)
+  * [Python Cheatsheet](../cheatsheet/python-cheatsheet.md)
 * [Reminder](../reminder.md)
