@@ -1,6 +1,36 @@
 # Python Cheatsheet
 
-## DFS&#x20;
+### HashMap
+
+```python
+dict()
+collecitons.defaultdict() 
+```
+
+### Heap
+
+```python
+import heapq
+
+# Creating an initial heap
+h = [10, 20, 15, 30, 40]
+heapq.heapify(h)
+
+# Appending an element
+heapq.heappush(h, 5)
+
+# Heap before popping
+print(h)
+
+# Pop the smallest element from the heap
+min = heapq.heappop(h)
+print("Smallest:", min)
+print(h)
+```
+
+##
+
+
 
 ### DFS in Graph
 
@@ -65,3 +95,35 @@ def dfs(start_index, [...additional states]):
     return ans
 
 ```
+
+### BFS on Graph
+
+```python
+def bfs(root):
+    queue = deque([root])
+    visited = set([root])
+    while len(queue) > 0:
+        node = queue.popleft()
+        for neighbor in get_neighbors(node):
+            if neighbor in visited:
+                continue
+            queue.append(neighbor)
+            visited.add(neighbor)
+```
+
+### BFS on Tree
+
+```python
+def bfs(root):
+    queue = deque([root])
+    while len(queue) > 0:
+        node = queue.popleft()
+        for child in node.children:
+            if is_goal(child):
+                return FOUND(child)
+            queue.append(child)
+    return NOT_FOUND
+```
+
+
+

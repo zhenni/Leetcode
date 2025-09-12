@@ -2,14 +2,21 @@
 
 ## DFS
 
+* No. 93: Restore IP Addresses
 * No. 200: Number of Islands: Number of components
 * No. 282: Expression Add Operators
 * No. 399: Evaluate Division
 
-## BFS & DFS
+
 
 * No. 78 Subsets&#x20;
-* No.90 Subsets II
+* No.90 Subsets I
+
+## BFS&#x20;
+
+* No. 127. Word Ladder
+* No. 126. Word Ladder || (Bidirectional BFS)
+*
 
 ## Mixed DFS + Backtracking + Graph ⭐️⭐️⭐️⭐️⭐️
 
