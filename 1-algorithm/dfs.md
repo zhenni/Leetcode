@@ -1,5 +1,10 @@
 # DFS & BFS
 
+## BFS or DFS
+
+* [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+*
+
 ## DFS
 
 * No. 93: Restore IP Addresses
