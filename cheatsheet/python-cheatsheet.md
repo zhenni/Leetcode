@@ -31,6 +31,8 @@ c = Counter(cats=4, dogs=8)             # a new counter from keyword args
 
 c = Counter(a=4, b=2, c=0, d=-2)
 sorted(c.elements())                    # ['a', 'a', 'a', 'a', 'b', 'b']
+
+for x, freq in c.items():               # iterate
 ```
 
 ***
