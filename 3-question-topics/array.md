@@ -52,7 +52,7 @@
 
 ## Stock:
 
-* No. 121: Best Time to Buy and Sell Stock: (one whole transaction) [Kadane's Algorithm(similar to maximum subarray, using difference between neighbors)](https://discuss.leetcode.com/topic/19853/kadane-s-algorithm-since-no-one-has-mentioned-about-this-so-far-in-case-if-interviewer-twists-the-input)
+* No. 121: Best Time to Buy and Sell Stock: (one whole transaction) Kadane's Algorithm(similar to maximum subarray, using difference between neighbors)
 * No. 122: Best Time to Buy and Sell Stock II: (multiple times transactions) simple
 * No. 123: Best Time to Buy and Sell Stock III:&#x20;
   * (2 times -> k times) DP : f\[k, ii] represents the max profit up until prices\[ii] (Note: NOT ending with prices\[ii]) using at most k transactions.&#x20;
