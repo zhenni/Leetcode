@@ -7,6 +7,7 @@
    * No. 120: Triangle
    * No. 221 Maximal Square: dp\[i]\[j]: the largest side of squares with point \[i, j] as bottom right corner
 2. Sequences DP
+   * [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)&#x20;
    * No.  53: Maximum Subarray  (Can do state reduction)
    * No. 152: Maximum Product Subarray. similar to 53
    * No. 139: Word Break: `canBreak[i] = True if canBreak[j] and (s[j:i] in wordDict) for j < i`
