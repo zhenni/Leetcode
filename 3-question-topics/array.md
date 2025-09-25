@@ -51,6 +51,16 @@
 
 
 
+## Kth
+
+* No. 215 Kth Largest Element in an Array: Sort; Heap; Quick Select
+* No. 230 Kth Smallest Element in a BST: tranverse; can add one element to the node
+* No. 378 Kth Smallest Element in a Sorted Matrix: binary search; **median of median +    saddleback search** [https://discuss.leetcode.com/topic/53126/o-n-from-paper-yes-o-rows](https://discuss.leetcode.com/topic/53126/o-n-from-paper-yes-o-rows)
+* No. 668 Kth Smallest Number in Multiplication Table: this is a sorted matrix
+* No. 373 Find K Pairs with Smallest Sums: Heap: pointer
+
+
+
 ## Stock:
 
 * [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/): (one whole transaction) Kadane's Algorithm(similar to maximum subarray, using difference between neighbors)
@@ -64,11 +74,7 @@
   * [sol Using O(n + klgn) time using Max Heap and Stack](https://discuss.leetcode.com/topic/9522/c-solution-with-o-n-klgn-time-using-max-heap-and-stack) keep the highest k ones.(not the best)  &#x20;
 * No. 309: Best Time to Buy and Sell Stock with Cooldown
   * DP: [https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/?currentPage=1\&orderBy=hot\&query=](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/?currentPage=1\&orderBy=hot\&query=)
-*   No. 714: Best Time to Buy and Sell Stock with Transaction Fee: Dynamic programming with 2 variables: hold and sell. O(n) time & O(1) space
-
-
-
-
+* No. 714: Best Time to Buy and Sell Stock with Transaction Fee: Dynamic programming with 2 variables: hold and sell. O(n) time & O(1) space
 
 
 

@@ -229,6 +229,45 @@ a ^ b                              # letters in a or b but not both
 {'r', 'd', 'b', 'm', 'z', 'l'}
 ```
 
+#### Deque
+
+```python
+from collections import deque
+d = deque('ghi')                 # make a new deque with three items
+for elem in d:                   # iterate over the deque's elements
+    print(elem.upper())
+
+d.append('j')                    # add a new entry to the right side
+d.appendleft('f')                # add a new entry to the left side
+# deque(['f', 'g', 'h', 'i', 'j'])
+
+d.pop()                          # return and remove the rightmost item
+# 'j'
+d.popleft()                      # return and remove the leftmost item
+# 'f'
+list(d)                          # list the contents of the deque
+# ['g', 'h', 'i']
+
+list(reversed(d))                # list the contents of a deque in reverse
+# ['i', 'h', 'g']
+'h' in d                         # search the deque
+# True
+d.extend('jkl')                  # add multiple elements at once
+# deque(['g', 'h', 'i', 'j', 'k', 'l'])
+d.rotate(1)                      # right rotation
+# deque(['l', 'g', 'h', 'i', 'j', 'k'])
+d.rotate(-1)                     # left rotation
+# deque(['g', 'h', 'i', 'j', 'k', 'l'])
+
+deque(reversed(d))               # make a new deque in reverse order
+# deque(['l', 'k', 'j', 'i', 'h', 'g'])
+d.clear()                        # empty the deque
+d.pop()                          # cannot pop from an empty deque
+
+d.extendleft('abc')              # extendleft() reverses the input order
+# deque(['c', 'b', 'a'])
+```
+
 ***
 
 ## Algorithm

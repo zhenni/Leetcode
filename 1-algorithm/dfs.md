@@ -1,16 +1,15 @@
-# DFS & BFS
+# DFS & BFS & BackTrack
 
-## BFS or DFS
+## Trees
 
-* [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
-*
+{% content-ref url="../2-data-structure/tree.md" %}
+[tree.md](../2-data-structure/tree.md)
+{% endcontent-ref %}
 
 ## DFS
 
 * No. 93: Restore IP Addresses
 * [733. Flood Fill](https://leetcode.com/problems/flood-fill/)
-* [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
-* [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 * No. 200: Number of Islands: Number of components
 * No. 282: Expression Add Operators
 * No. 399: Evaluate Division
@@ -24,7 +23,16 @@
 
 * No. 127. Word Ladder
 * No. 126. Word Ladder || (Bidirectional BFS)
-*
+
+
+
+
+
+## BackTrack
+
+No.  22: Generate Parentheses: DFS backtrack
+
+
 
 ## Mixed DFS + Backtracking + Graph ⭐️⭐️⭐️⭐️⭐️
 
