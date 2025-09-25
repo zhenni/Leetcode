@@ -1,5 +1,15 @@
 # Bit Operation
 
+1. _**A^A=0**_
+2. _**A^B^A=B**_
+3. _**(A^A^B) = (B^A^A) = (A^B^A) = B**_ This shows that position doesn't matter.
+
+
+
+* [136. Single Number](https://leetcode.com/problems/single-number/)
+
+
+
 n & (n-1): remove the first one
 
 * No. 191: Number of 1 Bits:  n & (n-1)
