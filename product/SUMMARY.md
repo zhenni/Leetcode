@@ -8,6 +8,7 @@
   * [Iteration/Recursion](../1-algorithm/iteration-recursion.md)
   * [Two Pointers](../1-algorithm/two-pointers.md)
   * [Divide-and-Conquer](../1-algorithm/divide-and-conquer.md)
+  * [Other](../1-algorithm/other.md)
 * [Data Structure](../2-data-structure/README.md)
   * [Hashing/Set](../2-data-structure/hashing-set.md)
   * [Linked List](../2-data-structure/linked-list.md)

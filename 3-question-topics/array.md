@@ -16,6 +16,7 @@
 
 ## Majority
 
+* [169. Majority Element](https://leetcode.com/problems/majority-element/): **Moore Voting Algorithm**
 * No. 373 Find K Pairs with Smallest Sums: **Moore Voting Algorithm** [https://discuss.leetcode.com/topic/17446/6-suggested-solutions-in-c-with-explanations](https://discuss.leetcode.com/topic/17446/6-suggested-solutions-in-c-with-explanations) one counter
 * No. 229 Majority Element II: Moore Voting Algorithm: two counter
 
