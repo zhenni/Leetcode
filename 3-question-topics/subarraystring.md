@@ -2,6 +2,7 @@
 
 ### SubArray:
 
+* [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/): sliding window
 * No. 53:  Maximum Subarray: dynamic programming: keep the variable of maxEndingHere
 * No. 152: Maximum Product Subarray
 * No. 209: Minimum Size Subarray Sum (all positive number) 2 pointer
