@@ -30,7 +30,8 @@
 
 ## BackTrack
 
-No.  22: Generate Parentheses: DFS backtrack
+* [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
+* No.  22: Generate Parentheses: DFS backtrack
 
 
 

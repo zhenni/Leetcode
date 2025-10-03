@@ -398,5 +398,22 @@ def bfs(root):
     return NOT_FOUND
 ```
 
+### Prefix Tree
 
+<pre class="language-python"><code class="lang-python"><strong>
+</strong>class TrieNode:
+    def __init__(self):
+        self.children = {}
+        self.isWord = False
+
+# Build the trie
+root = TrieNode()
+for word in words:
+    node = root
+    for char in word:
+        if char not in node.children:
+            node.children[char] = TrieNode()
+        node = node.children[char]
+    node.isWord = True
+</code></pre>
 
