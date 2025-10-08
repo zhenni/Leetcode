@@ -21,6 +21,7 @@
 
 ## BFS&#x20;
 
+* [542. 01 Matrix](https://leetcode.com/problems/01-matrix/)&#x20;
 * No. 127. Word Ladder
 * No. 126. Word Ladder || (Bidirectional BFS)
 

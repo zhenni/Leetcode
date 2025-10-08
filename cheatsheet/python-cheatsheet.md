@@ -201,6 +201,14 @@ print(h)
 min = heapq.heappop(h)
 print("Smallest:", min)
 print(h)
+
+class Point(object):
+    def __init__(self, x, y):
+        self.x, self.y = x, y
+    
+    def __lt__(self, other):
+        return self.x*self.x+self.y*self.y < other.x*other.x+other.y*other.y
+
 ```
 
 ### Set
