@@ -18,7 +18,7 @@
 
 
 
-* No.15 3-Sum:&#x20;
+* [15. 3Sum](https://leetcode.com/problems/3sum/)
   * avoid duplicate solution
   * fix one number -> 2Sum
     * sort+2 pointer(O(n^2)) with 2-sumII

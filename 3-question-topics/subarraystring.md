@@ -24,7 +24,7 @@
 
 * No. 30: Substring with Concatenation of All Words
 
-&#x20; two-pointer + hash map
+&#x20; two-pointer + hash map/set
 
-* No.3: Longest Substring Without Repeating Characters
+* [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 * No. 76: Minimum Window Substring : 2pointer + hashmap

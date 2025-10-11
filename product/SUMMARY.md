@@ -15,6 +15,7 @@
   * [Queue](../2-data-structure/queue.md)
   * [Stack](../2-data-structure/stack.md)
   * [Tree](../2-data-structure/tree.md)
+  * [Heap](../2-data-structure/heap.md)
 * [Question Topics](../3-question-topics/README.md)
   * [Array](../3-question-topics/array.md)
   * [String](../3-question-topics/string.md)
