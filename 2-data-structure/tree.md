@@ -39,3 +39,9 @@
   * ```python
     return f",{node.val},{serialize(node.left)},{serialize(node.right)}"
     ```
+
+
+
+### Trie
+
+* [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
