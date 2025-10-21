@@ -14,7 +14,7 @@
 
 * No. 93: Restore IP Addresses
 * [733. Flood Fill](https://leetcode.com/problems/flood-fill/)
-* No. 200: Number of Islands: Number of components
+* [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)&#x20;
 * No. 282: Expression Add Operators
 * No. 399: Evaluate Division
 
@@ -27,6 +27,7 @@
 
 * [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 * [542. 01 Matrix](https://leetcode.com/problems/01-matrix/)&#x20;
+* [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
 * No. 127. Word Ladder
 * No. 126. Word Ladder || (Bidirectional BFS)
 

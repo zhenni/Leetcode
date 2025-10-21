@@ -19,10 +19,11 @@
 ### Binary Search Tree Related
 
 * [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+* [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 
 
 
-###
+
 
 * No. 102 Binary Tree Level Order Traversal： BFS, DFS(record height)
 

@@ -19,7 +19,7 @@
 * [Question Topics](../3-question-topics/README.md)
   * [Array](../3-question-topics/array.md)
   * [String](../3-question-topics/string.md)
-  * [Backpack Questions](../3-question-topics/backpack-questions.md)
+  * [Snapsack/Backpack Questions](../3-question-topics/backpack-questions.md)
   * [Subarray and Substring](../3-question-topics/subarraystring.md)
   * [Intervals](../3-question-topics/intervals.md)
   * [Matrix](../3-question-topics/matrix.md)

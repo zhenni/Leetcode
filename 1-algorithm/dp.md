@@ -65,7 +65,7 @@
 1. Matrix DP (10%)
 2. Sequence (40%)
 3. Two Sequences DP (40%)\*
-4. Backpack (10%)
+4. Backpack/Snapsack (10%)
 5. Need Backtrace （DFS）
 
 ### Solutions
