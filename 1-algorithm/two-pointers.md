@@ -4,6 +4,7 @@
 
 * [704. Binary Search](https://leetcode.com/problems/binary-search/)
 * [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+* [981. Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
 * ​[392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)​ follow up: Binary search on character positions. 1) Build a map from each character to all its indices; 2) For each s, do a greedy binary search for each character in t
 
 ### Slow Fast Pointer

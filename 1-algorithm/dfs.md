@@ -42,10 +42,9 @@
 
 
 
-## Mixed DFS + Backtracking + Graph ⭐️⭐️⭐️⭐️⭐️
+## Mixed DFS/BFS + Backtrack + Memorization ⭐️⭐️⭐️⭐️⭐️
 
-Some problems force you to combine ideas:
-
+* [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
 * **79. Word Search** – DFS + backtracking in grid
   * Pruning: consider freq, can reverse the word, start from low freq.
 * **212. Word Search II** – backtracking + trie

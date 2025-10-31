@@ -1,5 +1,32 @@
 # Dynamic Programming
 
+{% content-ref url="../3-question-topics/backpack-questions.md" %}
+[backpack-questions.md](../3-question-topics/backpack-questions.md)
+{% endcontent-ref %}
+
+## When to use DP?
+
+* Input cannot sort
+* Find minimum/maximum result
+  * Optimal solution, optimal substructure
+* Check the feasibility
+* Count all possible solutions
+* Optimal Substruction: The optimal solution to the problem contains all the optimal solutions to its sub-problems.
+* No after-effect. The previous result is fixed, which will not be affected by any later actions.
+* Substructures may have some interactions. The optimal solutions to some sub-problems will be used for some other problems in the next decision steps.
+
+## 4 Types of DP
+
+1. Matrix DP (10%)
+2. Sequence (40%)
+3. Two Sequences DP (40%)\*
+4. Backpack/Snapsack (10%)
+5. Need Backtrace （DFS）
+
+
+
+## Problems
+
 1. Matrix DP
    * No.  62: Unique Paths (Can be solved by math)
    * No.  63: Unique Paths II
@@ -48,25 +75,6 @@
 #### Reference Links:
 
 * [http://ryanleetcode.blogspot.com/2015/07/blog-post\_16.html](http://ryanleetcode.blogspot.com/2015/07/blog-post_16.html)
-
-## When to use DP?
-
-* Input cannot sort
-* Find minimum/maximum result
-  * Optimal solution, optimal substructure
-* Check the feasibility
-* Count all possible solutions
-* Optimal Substruction: The optimal solution to the problem contains all the optimal solutions to its sub-problems.
-* No after-effect. The previous result is fixed, which will not be affected by any later actions.
-* Substructures may have some interactions. The optimal solutions to some sub-problems will be used for some other problems in the next decision steps.
-
-## 4 Types of DP
-
-1. Matrix DP (10%)
-2. Sequence (40%)
-3. Two Sequences DP (40%)\*
-4. Backpack/Snapsack (10%)
-5. Need Backtrace （DFS）
 
 ### Solutions
 

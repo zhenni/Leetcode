@@ -1,6 +1,6 @@
 # Tree
 
-### Basic Binary Tree Operation
+### Binary Tree Operation
 
 * [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 * [100. Same Tree](https://leetcode.com/problems/same-tree/)
@@ -11,6 +11,7 @@
 * [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 * [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 * [112. Path Sum](https://leetcode.com/problems/path-sum/)
+* [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 
 
 
