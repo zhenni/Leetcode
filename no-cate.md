@@ -31,6 +31,11 @@ Median of median [https://en.wikipedia.org/wiki/Median\_of\_medians](https://en.
 * No.13: Roman to Integer
   * Right from left
 * No. 717: 1-bit and 2-bit Characters
+* [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+
+
+
+* [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)
 
 
 
