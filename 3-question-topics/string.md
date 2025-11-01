@@ -18,6 +18,7 @@ tags: Suffix Tree
 ## Palindrom
 
 * [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+* [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 
 ## Anagram
 
