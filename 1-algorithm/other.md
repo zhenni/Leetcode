@@ -1,5 +1,9 @@
 # Other
 
-### Sliding Window
+###
 
-* [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
+
+
+### LineSweep
+
+* [3346. Maximum Frequency of an Element After Performing Operations I](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i/)

@@ -1,4 +1,4 @@
-# Two Pointers
+# Two Pointers / Sliding Window
 
 ### Binary Search
 
@@ -36,6 +36,10 @@
 * [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 
+
+### Sliding Window
+
+* [643. Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
 
 
 

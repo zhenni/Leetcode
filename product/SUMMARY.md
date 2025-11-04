@@ -6,7 +6,7 @@
   * [DFS & BFS & BackTrack](../1-algorithm/dfs.md)
   * [Dynamic Programming](../1-algorithm/dp.md)
   * [Iteration/Recursion](../1-algorithm/iteration-recursion.md)
-  * [Two Pointers](../1-algorithm/two-pointers.md)
+  * [Two Pointers / Sliding Window](../1-algorithm/two-pointers.md)
   * [Divide-and-Conquer](../1-algorithm/divide-and-conquer.md)
   * [Other](../1-algorithm/other.md)
 * [Data Structure](../2-data-structure/README.md)
