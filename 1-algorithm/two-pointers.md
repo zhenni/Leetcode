@@ -30,7 +30,10 @@
   * follow up: Binary search on character positions. 1) Build a map from each character to all its indices; 2) For each s, do a greedy binary search for each character in t
   * loop with slower pointer and loop with faster pointer
 * [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
-* [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)&#x20;
+* [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/): Edge cases.
+* [https://zhenni.gitbook.io/leetcode-practice/3-question-topics/array#water](https://zhenni.gitbook.io/leetcode-practice/3-question-topics/array#water)&#x20;
+
+
 
 #### Two Pointer with HashSet/Map
 

@@ -78,10 +78,10 @@
 
 
 
-## Water
+## Trapping Water/Rain
 
 * [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) Two-pointer
-*
+* [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/): Two-pointer
 
 
 
