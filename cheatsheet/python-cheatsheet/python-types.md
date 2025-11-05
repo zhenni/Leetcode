@@ -151,6 +151,9 @@ c = Counter(a=4, b=2, c=0, d=-2)
 sorted(c.elements())                    # ['a', 'a', 'a', 'a', 'b', 'b']
 
 for x, freq in c.items():               # iterate
+
+sorted_by_frequency = counts.most_common()
+#[('apple', 3), ('banana', 2), ('orange', 1), ('grape', 1)]
 ```
 
 ***

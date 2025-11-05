@@ -45,7 +45,7 @@
 ## Mixed DFS/BFS + Backtrack + Memorization ⭐️⭐️⭐️⭐️⭐️
 
 * [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
-* **79. Word Search** – DFS + backtracking in grid
+* **79. Word Search** – DFS
   * Pruning: consider freq, can reverse the word, start from low freq.
 * **212. Word Search II** – backtracking + trie
 * **329. Longest Increasing Path in a Matrix** – DFS + DP memoization

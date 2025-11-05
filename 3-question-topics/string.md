@@ -25,4 +25,9 @@ tags: Suffix Tree
 * [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 * No. 242: Valid Anagram: sort; hash-table
 * No. 49: Group Anagrams: hash-table, hashfunction
-* No. 438: Find All Anagrams in a String: sliding window
+* [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)&#x20;
+
+### Other
+
+* [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+

@@ -78,7 +78,10 @@
 
 
 
+## Water
 
+* [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) Two-pointer
+*
 
 
 
@@ -88,3 +91,4 @@
 * No. 632: Smallest Range: K merge sort
 * No. 697: Degree of an Array: Hashmap
 * [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/): add front and end, edit in array
+* [3354. Make Array Elements Equal to Zero](https://leetcode.com/problems/make-array-elements-equal-to-zero/): simulation, prefix sum

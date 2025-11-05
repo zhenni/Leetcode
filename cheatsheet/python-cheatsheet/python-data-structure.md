@@ -8,7 +8,21 @@
 
 ```python
 dict()
-collecitons.defaultdict() 
+collecitons.defaultdict() # has initialization
+defaultdict(list) 
+
+from sortedcontainers import SortedDict
+from collections import OrderedDict
+
+del my_dict["age"]
+removed_value = my_dict.pop("age")
+
+## OrderedDict   -> hashmap + doubly-linked list
+from collections import OrderedDict
+d.move_to_end('a')                                # O(1) Move key 'a' to the end
+d.move_to_end('b', last=False)                    # O(1) move to the front
+d.popitem(last=True)                              # O(1) pop from the end
+d.popitem(last=False)                             # O(1) pop from the front
 ```
 
 ### Stack
