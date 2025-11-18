@@ -138,6 +138,8 @@ d = datetime.datetime(2010, 7, 4, 12, 15, 58)
 '2010-07-04 12:15:58'
 ```
 
+***
+
 ### Collections
 
 {% embed url="https://docs.python.org/3/library/collections.html#collections.Counter" %}
