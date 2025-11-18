@@ -24,6 +24,7 @@ The lowercase letters 'abcdefghijklmnopqrstuvwxyz'. This value is not locale-dep
 string.ascii_uppercase
 The uppercase letters 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'. This value is not locale-dependent and will not change.
 
+ch.isdigits()
 string.digits
 The string '0123456789'.
 
