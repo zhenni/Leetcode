@@ -8,7 +8,11 @@ Median of median [https://en.wikipedia.org/wiki/Median\_of\_medians](https://en.
 
 * No. 215 Kth Largest Element in an Array
 
+## Graph
 
+Should be in Data Structure. but not many leetcode problems.
+
+* [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/): remove leaves
 
 ## Not solved
 

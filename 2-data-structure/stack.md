@@ -6,4 +6,5 @@
 * [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 * No.  20: Valid Parentheses
 * [155. Min Stack](https://leetcode.com/problems/min-stack/)
+* [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 

@@ -8,12 +8,15 @@
 
 ```python
 basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
-print(basket)                      # show that duplicates have been removed
-{'orange', 'banana', 'pear', 'apple'}
+## {'orange', 'banana', 'pear', 'apple'}
 'orange' in basket                 # fast membership testing
-True
+## True
 'crabgrass' in basket
-False
+## False
+basket.add("pineapple")
+## {'orange', 'banana', 'pear', 'apple', 'pineapple'}
+basket.remove("orange")
+## {'banana', 'pear', 'apple', 'pineapple'}
 
 # Demonstrate set operations on unique letters from two words
 a = set('abracadabra')
@@ -36,16 +39,30 @@ a ^ b                              # letters in a or b but not both
 
 ```python
 dict()
-collecitons.defaultdict() # has initialization
-defaultdict(list) 
-
-from sortedcontainers import SortedDict
-from collections import OrderedDict
 
 del my_dict["age"]
 removed_value = my_dict.pop("age")
+ 
+from collections import defaultdict      # has initialization
 
-## OrderedDict   -> hashmap + doubly-linked list
+my_defaultdict = defaultdict(int)
+my_defaultdict['a'] += 1
+my_defaultdict['b'] += 1
+print(my_defaultdict)
+
+my_list_defaultdict = defaultdict(list)
+my_list_defaultdict['fruits'].append('apple')
+my_list_defaultdict['fruits'].append('banana')
+print(my_list_defaultdict)
+
+from sortedcontainers import SortedDict
+```
+
+#### OrderedDict
+
+hashmap + doubly-linked list
+
+```
 from collections import OrderedDict
 d.move_to_end('a')                                # O(1) Move key 'a' to the end
 d.move_to_end('b', last=False)                    # O(1) move to the front

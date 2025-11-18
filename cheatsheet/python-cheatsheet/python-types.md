@@ -157,5 +157,12 @@ sorted_by_frequency = counts.most_common()
 #[('apple', 3), ('banana', 2), ('orange', 1), ('grape', 1)]
 ```
 
+See in Python Data Structure
+
+```
+collecitons.defaultdict()
+from collections import OrderedDict
+```
+
 ***
 

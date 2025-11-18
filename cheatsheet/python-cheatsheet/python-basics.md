@@ -10,17 +10,12 @@ description: Some functions may not use in daily coding but may use in Leetcode 
   import math
 
   # Floor division (rounds towards negative infinity)
-  print(f"5 // 2: {5 // 2}")
-  print(f"-5 // 2: {-5 // 2}")
+  print(f"5 // 2: {5 // 2}")     #  2
+  print(f"-5 // 2: {-5 // 2}")   # -3
 
   # Truncation towards zero (using math.trunc)
-  print(f"math.trunc(5 / 2): {math.trunc(5 / 2)}")
-  print(f"math.trunc(-5 / 2): {math.trunc(-5 / 2)}")
-
-  5 // 2: 2
-  -5 // 2: -3
-  math.trunc(5 / 2): 2
-  math.trunc(-5 / 2): -2
+  print(f"math.trunc(5 / 2): {math.trunc(5 / 2)}")    #  2
+  print(f"math.trunc(-5 / 2): {math.trunc(-5 / 2)}")  # -2
   ```
 
 ### List
@@ -52,32 +47,5 @@ description: Some functions may not use in daily coding but may use in Leetcode 
   * ```python
     nums = [1, 2, 3, 4, 5]
     even = list(filter(lambda x: x % 2 == 0, nums))  # Output: [2, 4]
-    ```
-
-### Queue
-
-* deque
-  * `queue.popleft()`
-  * `queue.append(x)`
-
-### Set
-
-* `set.add(x)`
-
-### Dict
-
-* `collections.defaultdict`
-  * ```python
-     from collections import defaultdict
-
-        my_defaultdict = defaultdict(int)
-        my_defaultdict['a'] += 1
-        my_defaultdict['b'] += 1
-        print(my_defaultdict)
-
-        my_list_defaultdict = defaultdict(list)
-        my_list_defaultdict['fruits'].append('apple')
-        my_list_defaultdict['fruits'].append('banana')
-        print(my_list_defaultdict)
     ```
 

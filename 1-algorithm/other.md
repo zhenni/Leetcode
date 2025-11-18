@@ -14,4 +14,4 @@
 ### Simulation
 
 * [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)
-* [146. LRU Cache](https://leetcode.com/problems/lru-cache/)
+* [146. LRU Cache](https://leetcode.com/problems/lru-cache/) hashmap + doubly-linked list, OrderedDict in python
