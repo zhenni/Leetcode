@@ -33,6 +33,7 @@
 * [No-Category](../no-cate.md)
 * [Cheatsheet](../cheatsheet/README.md)
   * [Python Cheatsheet](../cheatsheet/python-cheatsheet/README.md)
+    * [Python Basics](../cheatsheet/python-cheatsheet/python-basics.md)
     * [Python Types](../cheatsheet/python-cheatsheet/python-types.md)
     * [Python Data Structure](../cheatsheet/python-cheatsheet/python-data-structure.md)
     * [Python Algorithm](../cheatsheet/python-cheatsheet/python-algorithm.md)
