@@ -86,17 +86,3 @@ from functools import lru_cache
 def dfs(x):
     xxxxx
 ```
-
-### Random
-
-* ```python
-  import math
-
-  # Floor division (rounds towards negative infinity)
-  print(f"5 // 2: {5 // 2}")     #  2
-  print(f"-5 // 2: {-5 // 2}")   # -3
-
-  # Truncation towards zero (using math.trunc)
-  print(f"math.trunc(5 / 2): {math.trunc(5 / 2)}")    #  2
-  print(f"math.trunc(-5 / 2): {math.trunc(-5 / 2)}")  # -2
-  ```
