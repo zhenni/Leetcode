@@ -4,68 +4,6 @@
 
 {% embed url="https://docs.python.org/3/tutorial/datastructures.html" %}
 
-### HashMap
-
-```python
-dict()
-collecitons.defaultdict() # has initialization
-defaultdict(list) 
-
-from sortedcontainers import SortedDict
-from collections import OrderedDict
-
-del my_dict["age"]
-removed_value = my_dict.pop("age")
-
-## OrderedDict   -> hashmap + doubly-linked list
-from collections import OrderedDict
-d.move_to_end('a')                                # O(1) Move key 'a' to the end
-d.move_to_end('b', last=False)                    # O(1) move to the front
-d.popitem(last=True)                              # O(1) pop from the end
-d.popitem(last=False)                             # O(1) pop from the front
-```
-
-### Stack
-
-```python
-def mono_stack(insert_entries):
-    stack = []
-    for entry in insert_entries:
-        while stack and stack[-1] <= entry:
-            stack.pop()
-            # Do something with the popped item here
-        stack.append(entry)
-```
-
-### Heap
-
-```python
-import heapq
-
-# Creating an initial heap
-h = [10, 20, 15, 30, 40]
-heapq.heapify(h)
-
-# Appending an element
-heapq.heappush(h, 5)
-
-# Heap before popping
-print(h)
-
-# Pop the smallest element from the heap
-min = heapq.heappop(h)
-print("Smallest:", min)
-print(h)
-
-class Point(object):
-    def __init__(self, x, y):
-        self.x, self.y = x, y
-    
-    def __lt__(self, other):
-        return self.x*self.x+self.y*self.y < other.x*other.x+other.y*other.y
-
-```
-
 ### Set
 
 ```python
@@ -91,6 +29,45 @@ a & b                              # letters in both a and b
 a ^ b                              # letters in a or b but not both
 {'r', 'd', 'b', 'm', 'z', 'l'}
 ```
+
+***
+
+### HashMap
+
+```python
+dict()
+collecitons.defaultdict() # has initialization
+defaultdict(list) 
+
+from sortedcontainers import SortedDict
+from collections import OrderedDict
+
+del my_dict["age"]
+removed_value = my_dict.pop("age")
+
+## OrderedDict   -> hashmap + doubly-linked list
+from collections import OrderedDict
+d.move_to_end('a')                                # O(1) Move key 'a' to the end
+d.move_to_end('b', last=False)                    # O(1) move to the front
+d.popitem(last=True)                              # O(1) pop from the end
+d.popitem(last=False)                             # O(1) pop from the front
+```
+
+***
+
+### Stack
+
+```python
+def mono_stack(insert_entries):
+    stack = []
+    for entry in insert_entries:
+        while stack and stack[-1] <= entry:
+            stack.pop()
+            # Do something with the popped item here
+        stack.append(entry)
+```
+
+***
 
 ### Deque
 
@@ -133,3 +110,70 @@ d.extendleft('abc')              # extendleft() reverses the input order
 
 ***
 
+### Heap
+
+```python
+import heapq
+
+h = [2, 3, 8]
+heapq.heapify(h)                      # Creating an initial heap
+
+heapq.heappush(h, 5)                  # Appending an element
+# h: [2, 3, 5, 8]
+min = heapq.heappop(h)                # Pop the smallest element from the heap
+# min: 2, h: [3, 5, 8]
+top = h[0]                            # Top: return the smallest element of the heap
+# top: 3, h: [3, 5, 8]
+
+min = heapq.heappushpop(h, 1)         # Push item, then pop smallest of old+new  
+# min: 1, h: [3, 5, 8]                # heappush() + heappop()
+min = heapq.heapreplace(h, 1)         # Pop smallest of old, insert new item.       
+# min: 3, h: [1, 5, 8]                # heappop() + heappush()
+
+heapq.nlargest(2, h)                  # return the largest k elements of the heap
+# [8, 5], h: [1, 5, 8]                # nsmallest is the same way
+```
+
+#### Your own Comparison
+
+1.  Use Tuple
+
+    ```python
+    # Example: sort by priority, then timestamp
+    heapq.heappush(h, (priority, timestamp, value))
+    ```
+2.  Wrap objects and implement `__lt__`&#x20;
+
+    ```python
+    class Point(object):
+        def __init__(self, x, y):
+            self.x, self.y = x, y
+        
+        def __lt__(self, other):
+            return self.x*self.x+self.y*self.y < other.x*other.x+other.y*other.y
+    heapq.heappush(h, Point(1, 5))
+    ```
+3.  Use `functools.cmp_to_key` inside a wrapper object
+
+    ```python
+    from functools import cmp_to_key
+
+    def my_compare(a, b):
+        # example: reverse order (max heap)
+        return b - a
+
+    class Wrapper:
+        def __init__(self, value):
+            self.value = value
+            self.key = cmp_to_key(my_compare)(value)
+
+        def __lt__(self, other):
+            return self.key < other.key
+
+    h = []
+    heapq.heappush(h, Wrapper(10))
+    heapq.heappush(h, Wrapper(3))
+    heapq.heappush(h, Wrapper(7))
+
+    print(heapq.heappop(h).value)   # 10
+    ```
