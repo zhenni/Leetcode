@@ -92,7 +92,7 @@ a ^ b                              # letters in a or b but not both
 {'r', 'd', 'b', 'm', 'z', 'l'}
 ```
 
-#### Deque
+### Deque
 
 ```python
 from collections import deque
