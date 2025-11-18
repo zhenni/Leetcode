@@ -2,7 +2,12 @@
 
 * [Introduction](README.md)
   * [Table of contents](summary.md)
-* [Algorithm](../1-algorithm.md)
+* [Algorithm](../1-algorithm/README.md)
+  * [DFS & BFS & BackTrack](../1-algorithm/dfs.md)
+  * [Dynamic Programming](../1-algorithm/dp.md)
+  * [Two Pointers & Sliding Window](../1-algorithm/two-pointers.md)
+  * [Divide-and-Conquer](../1-algorithm/divide-and-conquer.md)
+  * [Other](../1-algorithm/other.md)
 * [Data Structure](../2-data-structure/README.md)
   * [Hashing/Set](../2-data-structure/hashing-set.md)
   * [Linked List](../2-data-structure/linked-list.md)
@@ -33,11 +38,3 @@
     * [Python Algorithm](../cheatsheet/python-cheatsheet/python-algorithm.md)
     * [Python Functions](../cheatsheet/python-cheatsheet/python-functions.md)
 * [Reminder](../reminder.md)
-
-## Algorithm
-
-* [DFS & BFS & BackTrack](../algorithm/dfs.md)
-* [Dynamic Programming](../algorithm/dp.md)
-* [Two Pointers & Sliding Window](../algorithm/two-pointers.md)
-* [Divide-and-Conquer](../algorithm/divide-and-conquer.md)
-* [Other](../algorithm/other.md)
