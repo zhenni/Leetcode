@@ -9,6 +9,7 @@
 ## DFS/BFS
 
 * Find cycle [207. Course Schedule](https://leetcode.com/problems/course-schedule/)
+* No. 89: Gray Code (Definition question)
 
 ## DFS
 
