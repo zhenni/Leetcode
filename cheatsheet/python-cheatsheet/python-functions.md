@@ -13,7 +13,11 @@ from functools import cmp_to_key
 sorted(mylist, key=cmp_to_key(lambda item1, item2: fitness(item1) - fitness(item2)))
 ```
 
+***
+
 ### Binary Search
+
+{% embed url="https://docs.python.org/3/library/bisect.html" %}
 
 ```python
 import bisect

@@ -34,6 +34,6 @@
   * [Python Cheatsheet](../cheatsheet/python-cheatsheet/README.md)
     * [Python Types](../cheatsheet/python-cheatsheet/python-types.md)
     * [Python Data Structure](../cheatsheet/python-cheatsheet/python-data-structure.md)
-    * [Python Algorithm](../cheatsheet/python-cheatsheet/python-algorithm.md)
+    * [Python Algorithm Template](../cheatsheet/python-cheatsheet/python-algorithm-template.md)
     * [Python Functions](../cheatsheet/python-cheatsheet/python-functions.md)
 * [Reminder](../reminder.md)
