@@ -1,3 +1,7 @@
+---
+icon: asterisk
+---
+
 # No-Category
 
 ## Quick Select

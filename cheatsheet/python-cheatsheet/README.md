@@ -1,3 +1,7 @@
+---
+icon: python
+---
+
 # Python Cheatsheet
 
 Other References:
