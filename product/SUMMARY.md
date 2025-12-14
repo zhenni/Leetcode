@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-  * [Table of contents](summary.md)
 * [Algorithm](../1-algorithm/README.md)
   * [DFS & BFS & BackTrack](../1-algorithm/dfs.md)
   * [Dynamic Programming](../1-algorithm/dp.md)
