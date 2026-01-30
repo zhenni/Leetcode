@@ -5,6 +5,9 @@
 ```python
 alist.sort(key=lambda x: x.foo)
 
+# Sort and return index
+sorted(range(len(alist)), key=lambda k: alist[k])
+
 # Sort by multiple attributes (age then name)
 sorted_by_multiple = sorted(people, key=lambda p: (p.age, p.name))
 print(f"Sorted by age then name: {sorted_by_multiple}")
