@@ -4,32 +4,32 @@
 
 ## Sampling
 
-* **478: Generate Random Point in a Circle**
-* **497. Random Point in Non-overlapping Rectangles**
+* [ ] **478: Generate Random Point in a Circle**
+* [x] **497. Random Point in Non-overlapping Rectangles**
   * Pick a uniformly random integer point from rectangles.
   * Uses weighted random selection by area.
-* **528. Random Pick with Weight**
+* [x] **528. Random Pick with Weight**
   * Core weighted probability idea used in many geometry-random problems.
-* **710. Random Pick with Blacklist**
+* [ ] **710. Random Pick with Blacklist**
   * Advanced random mapping / remapping technique.
-* **470. Implement Rand10() Using Rand7()**
+* [x] **470. Implement Rand10() Using Rand7()**
   * Rejection sampling fundamentals.
-* **519. Random Flip Matrix**
+* [ ] **519. Random Flip Matrix**
   * Random selection without repetition.
 
 
 
 ## Geometry
 
-* **223. Rectangle Area**
+* [x] **223. Rectangle Area**
   * Geometry calculations.
-* **812. Largest Triangle Area**
+* [ ] **812. Largest Triangle Area**
   * Coordinate geometry.
-* **149. Max Points on a Line**
+* [ ] **149. Max Points on a Line**
   * Geometric reasoning with coordinates.
-* **1453. Maximum Number of Darts Inside of a Circular Dartboard**
+* [ ] **1453. Maximum Number of Darts Inside of a Circular Dartboard**
   * Circle geometry.
-* **1828. Queries on Number of Points Inside a Circle**
+* [ ] **1828. Queries on Number of Points Inside a Circle**
   * Circle inclusion checks.
 
 
