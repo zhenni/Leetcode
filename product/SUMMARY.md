@@ -28,6 +28,7 @@
   * [Median](../3-question-topics/median.md)
   * [N-Sum](../3-question-topics/n-sum.md)
   * [No Extra Space](../3-question-topics/no-extra-space.md)
+  * [Sampling + Geometry](../3-question-topics/sampling-+-geometry.md)
 * [No-Category](../no-cate.md)
 * [Cheatsheet](../cheatsheet/README.md)
   * [Python Cheatsheet](../cheatsheet/python-cheatsheet/README.md)
